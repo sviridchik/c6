@@ -1,5 +1,5 @@
 
-all: build run clear
+all: build clear
 build: main.c
 	gcc -Wall -O0 -g3 -DDEBUG  main.c -o programm.exe
 	
